@@ -1,0 +1,47 @@
+#tph-tools-wrap {
+	padding-right: 20px;
+	h2 {
+		font-size: 45px;
+		line-height: 55px;
+		margin-bottom: 45px;
+	}
+	.tph-tools-content-area {
+		.tph-tools-block-list {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+			gap: 20px;
+			.tph-tools-block-item {
+				width: 22%;
+				background-color: #fff;
+				padding: 15px;
+				border-radius: 8px;
+				.tph-tools-block-item-header {
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: space-between;
+					.icon {
+						position: relative;
+						i {
+							color: rgba(47, 66, 238, 1);
+							font-size: 16px;
+							background-color: rgba(47, 66, 238, 0.2);
+							padding: 5px;
+							border-radius: 50%;
+							width: 20px;
+							height: 20px;
+							text-align: center;
+							line-height: 20px;
+						}
+					}
+					.favourite {
+						position: relative;
+						i {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
